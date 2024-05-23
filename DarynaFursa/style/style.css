@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Alpha Smart';
+    src: url(./Alpha_Smart_3000.ttf);
+}
+
+body{
+    background-color: rgb(169, 238, 236);
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    border: 3px solid rgb(87, 165, 151);
+    margin: 0 auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+button{
+    width: 80px;
+    font-family: 'Alpha Smart';
+    border-radius: 0;
+    margin: 5px;
+    background-color: rgb(169, 238, 236);
+}
+
+button:hover{
+    background-color: rgb(94, 176, 169);
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(87, 165, 151) ;
+    float: right;
+    margin: 5px;
+}
+
+h1{
+    clear: both;
+    font-family: 'Alpha Smart';
+    color: rgb(43, 80, 73);
+    margin: 5px;
+}
+
+p{
+    font-family: 'Alpha Smart';
+    color: rgb(43, 80, 73);
+    margin: 5px;
+}
