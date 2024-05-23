@@ -3,3 +3,8 @@ h1{
   text-align: center;
   font-style: italic;
 }
+
+ol{
+  font-size: larger;
+  color: #df1a1a;
+}
