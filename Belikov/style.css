@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(102deg, rgba(25,106,217,1) 27%, rgba(255,255,255,1) 75%);
+}

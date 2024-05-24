@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: url("../img/sky-bg.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+button {
+  margin: 20px;
+  background: lightblue;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px black;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #87cefa;
+  box-shadow: 5px 5px 10px #333;
+  transform: scale(1.005);
+  cursor: pointer;
+}
+
+.img-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 3px #333;
+}
+
+img {
+  width: 200px;
+}
+
+.list-wrapper {
+  margin: 20px;
+  text-align: center;
+  background: lightskyblue;
+  border-radius: 10px;
+  opacity: 80%;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
