@@ -1,0 +1,47 @@
+                        h1 {
+                            text-shadow: rgb(167, 117, 167) 2px 2px 5px;
+                            position: relative;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: 70px;
+                            text-align: center;
+                        }
+                        
+                        h2 {
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: 40px;
+                            text-shadow: rgb(65, 81, 131) 2px 2px 5px;
+                        }
+                        
+                        p {
+                            border: solid wheat 2px;
+                            font-size: 20px;
+                            float: left;
+                            width: 300px;
+                            background-color: azure;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        }
+                        
+                        button {
+                            padding: 15px 30px;
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #fff;
+                            background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 255, 0, 1) 50%, rgba(0, 0, 255, 1) 100%);
+                            border: none;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            background-size: 200% 200%;
+                            animation: gradient-animation 2s ease infinite;
+                        }
+                        
+                        @keyframes gradient-animation {
+                            0% {
+                                background-position: 0% 50%;
+                            }
+                            50% {
+                                background-position: 100% 50%;
+                            }
+                            100% {
+                                background-position: 0% 50%;
+                            }
+                        }
