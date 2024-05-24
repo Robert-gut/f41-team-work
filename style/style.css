@@ -4,7 +4,7 @@ h1{
   font-style: italic;
 }
 
-ol{
+ol, a{
   font-size: larger;
   color: #df1a1a;
 }
