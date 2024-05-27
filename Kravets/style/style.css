@@ -12,3 +12,20 @@ body{
     color: #fff;
     font-size: x-large;
 }
+.my_box_img .my_img{
+    position: absolute;
+    width: 300px;
+    border-radius: 45%;
+    float: right;
+    top: 40px;
+    right: 30px;
+}
+.backgro_img div img{
+    position: fixed;
+    opacity: 0;
+    filter: drop-shadow(4px 4px 6px  rgb(199, 195, 197));
+    transition: all 2s ease;
+}
+.backgro_img:hover div img{
+    opacity: 1;
+}
