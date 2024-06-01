@@ -1,0 +1,34 @@
+@import '../style/fonts.css';
+
+header{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+   background: linear-gradient(41deg, rgb(146 126 126) 0%, rgb(220 213 213) 56%);
+}
+
+header img{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+}
+
+.name{
+    font-size: 30px;
+    font-family: LatoR; 
+}
+
+.name h1{
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    font-weight: 500;
+}
+.name h2{
+    position: absolute;
+    top: 120px;
+    left: 17%;
+    font-weight: 500;
+}
