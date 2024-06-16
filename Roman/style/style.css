@@ -1,0 +1,120 @@
+@import '../style/fonts.css';
+
+
+body{
+	margin: 0;
+}
+header {
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	background: linear-gradient(41deg, rgb(146 126 126) 0%, rgb(220 213 213) 56%);
+}
+
+header img {
+	height: 300px;
+	width: 200px;
+	position: absolute;
+	right: 20px;
+}
+
+.name {
+	font-size: 30px;
+	font-family: LatoR;
+}
+
+.name h1 {
+	position: absolute;
+	top: 60px;
+	left: 10%;
+	font-weight: 500;
+}
+.name h2 {
+	position: absolute;
+	top: 120px;
+	left: 17%;
+	font-weight: 500;
+}
+
+main {
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+.box1 {
+	width: 25%;
+	font-size: 24px;
+	line-height: 50px;
+	float: left;
+	padding: 10px;
+	background: linear-gradient(90deg, rgba(184,69,69,1) 0%, rgba(245,178,178,1) 71%);
+	height: 380px;
+	
+}
+
+.box2 {
+	width: 71%;
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 10px;
+	font-family: LatoR;
+	background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(214,214,214,1) 74%, rgba(219,74,74,1) 100%);
+}
+
+.box2 img {
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	filter: contrast(130%);
+}
+
+.box2 h2 {
+	text-align: center;
+	font-family: LatoR;
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 67px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	border: 2px solid rgb(86, 22, 22);
+	font-family: LatoR;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	background: linear-gradient(90deg, rgba(184,69,69,1) 0%, rgba(245,178,178,1) 71%);
+}
+
+.button:hover{
+	color: white;
+	background: brown;
+}
+
+footer{
+	height: 100px;
+	clear: both;
+	background: linear-gradient(41deg, rgb(146 126 126) 0%, rgb(220 213 213) 56%);
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+footer h2{
+	display: inline-block;
+	margin:0 130px;
+	color: black;
+	font-size: 26px;
+	line-height: 100px;
+	font-family: LatoR;
+	
+}
