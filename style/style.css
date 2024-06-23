@@ -40,8 +40,8 @@ h1 {
 }
 ol {
   position: relative;
-  bottom: 490px;
-  right: -630px;
+  bottom: 500px;
+  right: -620px;
   list-style-type: none;
 }
 ol li a {
@@ -51,4 +51,8 @@ ol li a {
   color: rgb(7, 17, 94);
   text-shadow: 2px 3px cornsilk;
   font-weight: bold;
+}
+.my_logo {
+  border-radius: 45%;
+  box-shadow: 2px 3px blue;
 }
